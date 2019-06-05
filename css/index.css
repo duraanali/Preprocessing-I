@@ -135,6 +135,7 @@ body {
   height: 100%;
 }
 /* Variables used for project */
+/* ------------------------------ */
 /* -- Used for Mixins -- */
 .my-name {
   background-color: white;
@@ -156,6 +157,17 @@ body {
 .title-text2 {
   font-size: 2rem;
   font-weight: bolder;
+  margin-bottom: 10px;
+}
+.paragraph-text {
+  font-size: 1.2rem;
+  text-align: justify;
+  line-height: 1.5625rem;
+  margin-top: 10px;
+}
+.small-line {
+  border: 1px solid #1D1D1B;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 /* --------------------- */
@@ -200,7 +212,7 @@ body {
 }
 .container header .top-section .top-right p {
   font-size: 1.125rem;
-  line-height: 25px;
+  line-height: 1.5625rem;
   margin-right: 150px;
   text-align: justify;
 }
@@ -227,6 +239,100 @@ body {
   font-size: 1.05rem;
   font-weight: bold;
   margin-right: 10px;
+}
+.container .third-section {
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+  margin-left: 100px;
+  margin-right: 50px;
+}
+.container .third-section .third-section1 {
+  margin-right: 40px;
+}
+.container .third-section .third-section1 h2 {
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+.container .third-section .third-section1 .horizontal-line {
+  border: 3px solid #3715f2bf;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.container .third-section .third-section1 .list {
+  margin-top: 15px;
+}
+.container .third-section .third-section1 .list .contact-list {
+  font-size: 2rem;
+  margin-top: 10px;
+}
+.container .third-section .third-section1 .list .label {
+  font-size: 1rem;
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+.container .third-section p {
+  font-size: 1.2rem;
+  text-align: justify;
+  line-height: 1.5625rem;
+  margin-top: 10px;
+}
+.container .third-section .third-section2 {
+  margin-right: 40px;
+}
+.container .third-section .third-section2 .horizontal-line {
+  border: 3px solid #3715f2bf;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.container .third-section .third-section2 ul {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.container .third-section .third-section2 ul li {
+  list-style-type: disc;
+  font-size: 1.2rem;
+  line-height: 1.5625rem;
+}
+.container .third-section .third-section2 .dashed-line {
+  border: 1px solid #1D1D1B;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.container .third-section .third-section2 p {
+  font-size: 1.2rem;
+  text-align: justify;
+  line-height: 1.5625rem;
+  margin-top: 10px;
+}
+.container .second-section2 {
+  margin-right: 40px;
+}
+.container .second-section2 .horizontal-line {
+  border: 3px solid #3715f2bf;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.container .second-section2 ul {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.container .second-section2 ul li {
+  list-style-type: disc;
+  font-size: 1.2rem;
+  line-height: 1.5625rem;
+}
+.container .second-section2 .dashed-line {
+  border: 1px solid #1D1D1B;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.container .second-section2 p {
+  font-size: 1.2rem;
+  text-align: justify;
+  line-height: 1.5625rem;
+  margin-top: 10px;
 }
 .container .second-section {
   display: flex;
@@ -260,47 +366,73 @@ body {
   margin-left: 20px;
   margin-bottom: 5px;
 }
-.container .second-section2 {
+.container .second-section p {
+  font-size: 1.2rem;
+  text-align: justify;
+  line-height: 1.5625rem;
+  margin-top: 10px;
+}
+.container .second-section .second-section2 {
   margin-right: 40px;
 }
-.container .second-section2 .horizontal-line {
+.container .second-section .second-section2 .horizontal-line {
   border: 3px solid #3715f2bf;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.container .second-section3 {
-  margin-right: 40px;
-}
-.container .second-section3 .horizontal-line {
-  border: 3px solid #3715f2bf;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-.container .second-section3 .all-skills {
+.container .second-section .second-section2 ul {
+  margin-left: 30px;
   margin-top: 20px;
 }
-.container .second-section3 .bars {
+.container .second-section .second-section2 ul li {
+  list-style-type: disc;
+  font-size: 1.2rem;
+  line-height: 1.5625rem;
+}
+.container .second-section .second-section2 .dashed-line {
+  border: 1px solid #1D1D1B;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.container .second-section .second-section2 p {
+  font-size: 1.2rem;
+  text-align: justify;
+  line-height: 1.5625rem;
+  margin-top: 10px;
+}
+.container .second-section .second-section3 {
+  margin-right: 40px;
+}
+.container .second-section .second-section3 .horizontal-line {
+  border: 3px solid #3715f2bf;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.container .second-section .second-section3 .all-skills {
+  margin-top: 20px;
+}
+.container .second-section .second-section3 .bars {
   width: 100%;
   background-color: #ddd;
 }
-.container .second-section3 .skills {
+.container .second-section .second-section3 .skills {
   text-align: right;
   padding: 10px;
   color: white;
 }
-.container .second-section3 .html {
+.container .second-section .second-section3 .html {
   width: 100%;
   background-color: #4CAF50;
 }
-.container .second-section3 .css {
+.container .second-section .second-section3 .css {
   width: 90%;
   background-color: #2196F3;
 }
-.container .second-section3 .js {
+.container .second-section .second-section3 .js {
   width: 80%;
   background-color: #f44336;
 }
-.container .second-section3 .php {
+.container .second-section .second-section3 .php {
   width: 70%;
   background-color: #808080;
 }
@@ -332,4 +464,10 @@ body {
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 20px;
+}
+.container footer p {
+  font-size: 1.2rem;
+  text-align: justify;
+  line-height: 1.5625rem;
+  margin-top: 10px;
 }
