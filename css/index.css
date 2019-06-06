@@ -196,6 +196,11 @@ body {
   margin-left: 100px;
   margin-right: 60px;
 }
+@media (max-width: 500px) {
+  .container header .top-section .profile-img {
+    display: none;
+  }
+}
 .container header .top-section .top-right {
   color: white;
   padding: 60px;
@@ -351,6 +356,12 @@ body {
   list-style-type: disc;
   font-size: 1.2rem;
   line-height: 1.5625rem;
+}
+@media (max-width: 500px) {
+  .container .second-section {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .container .third-section {
   display: flex;
@@ -515,13 +526,6 @@ body {
   line-height: 1.5625rem;
 }
 @media (max-width: 500px) {
-  .container .profile-img {
-    display: none;
-  }
-  .container .second-section {
-    display: flex;
-    flex-direction: column;
-  }
   .container .vertical-line {
     display: none;
   }
